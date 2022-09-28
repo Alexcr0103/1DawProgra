@@ -7,14 +7,21 @@ public class Ejercicio05pedirCincoVariablesEnseñarMayorYmenor {
 	public static void main(String[] args) {
 		
 		/*
-		 * Declaramos 7 variables, cinco de ellos
+		 * Declaramos 7 variables, cinco de ellas serán para guardar los cinco números que le pidamos al usuario, las otras dos variables las usaremos para guardar tanto el mayor como el menor ha medida que los comparamos entre si.
 		 */
 		int var1, var2,var3, var4, var5, mayor, menor;
 		Scanner sc = new Scanner(System.in);
 		
 		
-		
+		/*
+		 * Pedimos al usuario que introduzca cinco números.
+		 */
 		System.out.println("Introduzca cinco números ");
+		
+		/*
+		 * Una vez tenemos los cinco números, lo que haremos sera compararlos, para ver cual de ellos es mayor y cual menor para así poder indicarselo en pantalla al usuario 
+		 * mediante un Syso
+		 */
 		
 		var1 = sc.nextInt();
 		mayor = var1;
