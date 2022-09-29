@@ -30,24 +30,24 @@ public class Ejercicio04pedirCincoVariablesEnseñarMenor {
 		
 		num2=sc.nextInt();
 		
-		if (num2<menor) {
+			if (num2<menor) {
 			menor=num2;
-		}
+			}
 		
 		num3=sc.nextInt();
-		if(num3<menor) {
+			if(num3<menor) {
 			menor=num3;
-		}
+			}
 		
 		num4=sc.nextInt();
-		if(num4<menor) {
+			if(num4<menor) {
 			menor=num4;
-		}
+			}
 		
 		num5=sc.nextInt();
-		if(num5<menor) {
+			if(num5<menor) {
 			menor=num5;
-		}
+			}
 		
 		System.out.println("El número menor de los introducidos es " + menor);
 

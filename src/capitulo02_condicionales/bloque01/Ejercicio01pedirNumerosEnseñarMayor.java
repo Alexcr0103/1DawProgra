@@ -30,11 +30,11 @@ public class Ejercicio01pedirNumerosEnseñarMayor {
 		 * Una vez tenemos los dos números, lo que haremos sera compararlos, para ver cual de ellos es mayor y así poder indicarselo en pantalla al usuario 
 		 * mediante un Syso
 		 */
-		if(num1>num2) {
+			if(num1>num2) {
 			System.out.println("El número mayor es " + num1);
-		}else {
+			}else {
 			System.out.println("El número mayor es " + num2);
-		}
+			}
 	}
 
 }

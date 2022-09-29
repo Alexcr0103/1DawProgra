@@ -30,11 +30,11 @@ public class Ejercicio02pedirNumerosEnseñarMenor {
 		 * Una vez tenemos los dos números, lo que haremos sera compararlos, para ver cual de ellos es menor y así poder indicarselo en pantalla al usuario 
 		 * mediante un Syso
 		 */
-		if(num1>num2) {
+			if(num1>num2) {
 			System.out.println("El número menor es " + num2);
-		}else {
+			}else {
 			System.out.println("El número menor es " + num1);
-		}
+			}
 
 	}
 

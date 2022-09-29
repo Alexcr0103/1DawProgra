@@ -23,48 +23,48 @@ public class Ejercicio05pedirCincoVariablesEnseñarMayorYmenor {
 		
 		var2 = sc.nextInt();
 		
-		if (var2 > mayor) {
-			mayor = var2; 
-		}
-		else { 
-			if (var2 < menor) {
-				menor = var2;
+			if (var2 > mayor) {
+				mayor = var2; 
 			}
+			else { 
+				if (var2 < menor) {
+					menor = var2;
+				}
 			
-		}
+			}
 		var3 = sc.nextInt();
 		
-		if (var3 > mayor) {
-			mayor = var3; 
-		}
-		else { 
-			if (var3 < menor) {
-				menor = var3;
+			if (var3 > mayor) {
+				mayor = var3; 
 			}
+			else { 
+				if (var3 < menor) {
+					menor = var3;
+				}
 			
-		}
+			}
 		var4 = sc.nextInt();
 		
-		if (var4 > mayor) {
-			mayor = var4; 
-		}
-		else { 
-			if (var4 < menor) {
-				menor = var4;
+			if (var4 > mayor) {
+				mayor = var4; 
 			}
+			else { 
+				if (var4 < menor) {
+					menor = var4;
+				}
 			
-		}
+			}
 		var5 = sc.nextInt();
 		
-		if (var5 > mayor) {
-			mayor = var5; 
-		}
-		else { 
-			if (var5 < menor) {
-				menor = var5;
+			if (var5 > mayor) {
+				mayor = var5; 
 			}
+			else { 
+				if (var5 < menor) {
+				menor = var5;
+				}
 			
-		}
+			}
 		System.out.println("El número mayor es " + mayor + " y el menor es " + menor);
 
 	}

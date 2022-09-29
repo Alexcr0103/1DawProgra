@@ -30,24 +30,24 @@ public class Ejercicio03pedirCincoVariablesEnseñarMayor {
 		
 		num2=sc.nextInt();
 		
-		if (num2>mayor) {
+			if (num2>mayor) {
 			mayor=num2;
-		}
+			}
 		
 		num3=sc.nextInt();
-		if(num3>mayor) {
+			if(num3>mayor) {
 			mayor=num3;
-		}
+			}
 		
 		num4=sc.nextInt();
-		if(num4>mayor) {
+			if(num4>mayor) {
 			mayor=num4;
-		}
+			}
 		
 		num5=sc.nextInt();
-		if(num5>mayor) {
+			if(num5>mayor) {
 			mayor=num5;
-		}
+			}
 		
 		System.out.println("El número mayor de los introducidos es " + mayor);
 	}
