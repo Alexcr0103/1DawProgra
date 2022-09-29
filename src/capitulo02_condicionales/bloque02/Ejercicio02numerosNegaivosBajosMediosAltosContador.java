@@ -100,9 +100,9 @@ public class Ejercicio02numerosNegaivosBajosMediosAltosContador {
 		}
 		
 		
-		System.out.println("La suma de números bajos es " + sumbajo);
-		System.out.println("La suma de números medios es " + summedio);
-		System.out.println("La suma de números altos es " + sumalto);
+		System.out.println("Cantidad de números bajos introducidos " + sumbajo );
+		System.out.println("Cantidad de números bajos introducidos " + summedio);
+		System.out.println("Cantidad de números bajos introducidos " + sumalto);
 	}
 
 }
