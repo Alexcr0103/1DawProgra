@@ -6,14 +6,32 @@ public class Ejercicio01numerosNegativosBajosMediosMayores {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * Declaramos las variables.
+		 */
+		
 		int num, sumnegativo=0, sumbajo=0, summedio=0, sumalto=0;
 		
+		/**
+		 * Importamos la clase Scanner
+		 */
 		Scanner sc= new Scanner (System.in);
 		
-		System.out.println("Introduce un número");
+		/*
+		 *Le pedimos al usuario que introduzca cinco números.
+		 */
+		System.out.println("Introduce cinco número");
 		
 		num = sc.nextInt();
 		
+		/*
+		 * Voy haciendo los condicionales, con cada uno de los números.	
+		 * Si el num, es menor que 0 se sumará a "sumanegativos", y si no, el "else"
+		 * Anidamos el siguiente "if". Si no es menor que 0, puede seguir siendo
+		 * de cualquiera de los otros grupos. Por lo tanto anidamos otro "if" con la segunda
+		 * restricción, y así seguimos con todos los números.
+		 */
+
 		if (num < 0) {
 			sumnegativo = num;
 		}else {
@@ -98,6 +116,9 @@ public class Ejercicio01numerosNegativosBajosMediosMayores {
 			}
 		}
 		
+		/*
+		 * Una vez clasificados los números introducidos por el usuario, le mostraremos en pantalla un mensaje con la información obtenida.
+		 */
 		System.out.println("La suma de números negativos es " + sumnegativo);
 		System.out.println("La suma de números bajos es " + sumbajo);
 		System.out.println("La suma de números medios es " + summedio);
