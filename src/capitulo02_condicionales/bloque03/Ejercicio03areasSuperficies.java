@@ -2,7 +2,7 @@ package capitulo02_condicionales.bloque03;
 
 import java.util.Scanner;
 
-public class Ejercicio04areasSuperficies {
+public class Ejercicio03areasSuperficies {
 
 	public static void main(String[] args) {
 		int opcion;
