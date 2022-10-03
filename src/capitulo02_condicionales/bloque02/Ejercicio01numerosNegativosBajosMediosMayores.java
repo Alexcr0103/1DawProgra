@@ -38,7 +38,7 @@ public class Ejercicio01numerosNegativosBajosMediosMayores {
 			if (num <= 25) {
 				sumbajo = num;
 			}else {
-				if(num > 25 & num <=250 ) {
+				if( num <=250 ) {
 					summedio = num;
 				}else {
 					if (num > 250) {
@@ -55,7 +55,7 @@ public class Ejercicio01numerosNegativosBajosMediosMayores {
 			if (num <= 25) {
 				sumbajo = num + sumbajo;
 			}else {
-				if(num > 25 & num <=250 ) {
+				if( num <=250 ) {
 					summedio = num + summedio;
 				}else {
 					if (num > 250) {
@@ -72,7 +72,7 @@ public class Ejercicio01numerosNegativosBajosMediosMayores {
 			if (num <= 25) {
 				sumbajo = num + sumbajo;
 			}else {
-				if(num > 25 & num <=250 ) {
+				if( num <=250 ) {
 					summedio = num + summedio;
 				}else {
 					if (num > 250) {
@@ -89,7 +89,7 @@ public class Ejercicio01numerosNegativosBajosMediosMayores {
 			if (num <= 25) {
 				sumbajo = num + sumbajo;
 			}else {
-				if(num > 25 & num <=250 ) {
+				if( num <=250 ) {
 					summedio = num + summedio;
 				}else {
 					if (num > 250) {
@@ -106,7 +106,7 @@ public class Ejercicio01numerosNegativosBajosMediosMayores {
 			if (num <= 25) {
 				sumbajo = num + sumbajo;
 			}else {
-				if(num > 25 & num <=250 ) {
+				if( num <=250 ) {
 					summedio = num + summedio;
 				}else {
 					if (num > 250) {
