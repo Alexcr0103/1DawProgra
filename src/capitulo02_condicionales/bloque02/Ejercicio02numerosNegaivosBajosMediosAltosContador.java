@@ -30,6 +30,10 @@ public class Ejercicio02numerosNegaivosBajosMediosAltosContador {
 		 */
 		if (num < 0) {
 			System.out.println("Ha introducido un valor erróneo");
+			
+			/*
+			 * Sería mejor usar return en vez de un system.exit
+			 */
 			System.exit(0);			
 		}else {
 			if (num <= 25) {
