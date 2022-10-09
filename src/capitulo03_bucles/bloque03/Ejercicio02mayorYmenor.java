@@ -2,7 +2,7 @@ package capitulo03_bucles.bloque03;
 
 import java.util.Scanner;
 
-public class Ejecicio02mayorYmenor {
+public class Ejercicio02mayorYmenor {
 
 	public static void main(String[] args) {
 		
