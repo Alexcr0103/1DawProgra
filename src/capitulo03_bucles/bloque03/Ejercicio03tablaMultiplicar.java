@@ -9,7 +9,10 @@ public class Ejercicio03tablaMultiplicar {
 		int num;
 		
 		Scanner sc = new Scanner (System.in);
-		
+		/*
+		 * Tenemos que anidar un bucle dentro de otro, el externo, para que pida números constantemente
+		 * y el for de dentro, para que calcule la tabla de multiplicar del número especificado.
+		 */
 		do {
 			System.out.println("Introduzca un número para mostrarle su tabla de multiplicar (Si introduce el 0 el programa acabará");
 			num = sc.nextInt();
@@ -20,7 +23,10 @@ public class Ejercicio03tablaMultiplicar {
 				}
 			}
 			System.out.println("\n");
-		}while (num != 0);
+			/*
+			 * Va a repetir el bucle, mientras "factor" sea diferente de 0.
+			 */
+		}while (num != 0); 
 		
 		System.out.println("\nEl programa ha finalizado");
 	}
