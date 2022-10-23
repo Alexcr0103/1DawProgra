@@ -22,7 +22,7 @@ public class Ejercicio02 {
 		 * un valor correcto.
 		 */
 		while (limiInf > 0) {
-			System.out.println("Introduzca como limite inferior un númro negativo");
+			System.out.println("Introduzca como limite inferior un número negativo");
 			limiInf = sc.nextInt();
 		}
 		
