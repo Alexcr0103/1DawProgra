@@ -5,7 +5,7 @@ import metodos.UtilsArrays;
 public class Ejercicio01ordenacionBurbuja {
 
 	public static void main(String[] args) {
-		int array[] = UtilsArrays.creaArrayNumerosAzar(10, 0, 100);
+		int array[] = UtilsArrays.creaArrayNumerosAzar(150, 0, 1000);
 		int aux;
 		
 		UtilsArrays.mostrarArray(array);
@@ -20,12 +20,12 @@ public class Ejercicio01ordenacionBurbuja {
 		 * lo vaya moviendo, para que los menores, se vayan a la parte izquierda del array.
 		 * El array lo recorro al revés, para ir metiendo los valores menores, en aux.
 		 */
-		for (int i = array.length-1; i > -1; i--) {
-			for (int j = array.length-1; j > 0; j--) {
-				if (array[j] < array[j-1]) {
+		for (int i = 0; i < array.length; i++) {
+			for (int j = 0; j < array.length -1; j++) {
+				if (array[j] > array[j+1]) {
 					aux = array[j];
-					array[j] = array[j-1];
-					array[j-1] = aux;	
+					array[j] = array[j+1];
+					array[j+1] = aux;	
 				}
 			}	
 		}
