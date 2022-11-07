@@ -33,8 +33,6 @@ public class Ejercicio06sentidoDesplazamiento {
 					array[j]=array[j-1];
 					}	
 					array[0] = aux;
-				
-
 			}
 			for (int i=0; i<array.length;i++) {
 				System.out.print(array[i] + " ");
