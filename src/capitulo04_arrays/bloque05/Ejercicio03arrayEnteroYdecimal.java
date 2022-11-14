@@ -1,7 +1,5 @@
 package capitulo04_arrays.bloque05;
 
-import java.util.Iterator;
-
 import metodos.UtilsArrays;
 
 public class Ejercicio03arrayEnteroYdecimal {
