@@ -127,4 +127,48 @@ public class UtilsArrays {
 		} while (hayIntercambios);
 
 	}
+	public static int[][] creaEInicializaMatriz (int filas, int cols, int valorInicial) {
+		int matriz[][] = new int[filas][cols];
+		
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				matriz[i][j] = valorInicial;
+			}
+		}
+		
+		return matriz;
+	}
+	public static int[][] creaEInicializaMatrizAleatoria (int filas, int cols, int limInf, int limSup) {
+		int matriz[][] = new int[filas][cols];
+		
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				matriz[i][j] = Utils.obtenerNumeroAzar(limInf, limSup);
+			}
+		}
+		
+		return matriz;
+	}
+	
+	public static void inicializaMatriz(int matriz[][]) {
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				matriz[i][j] = Utils.obtenerNumeroAzar();
+			}
+		}
+	}
+	
+	
+	/**
+	 * 
+	 * @param m
+	 */
+	public static void mostrarMatriz (int matriz[][]) {
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				System.out.print(matriz[i][j] + "\t");
+			}
+			System.out.println();
+		}
+	}
 }
